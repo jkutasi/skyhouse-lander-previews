@@ -1,0 +1,1059 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NativePath Grass-Fed Collagen — The Original Formula</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,700;0,800;1,400&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+<style>
+  /* ============================================================
+     RESET & BASE
+     ============================================================ */
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { overflow-x: hidden; }
+  body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8;
+    color: #333333;
+    background: #ffffff;
+    overflow-x: hidden;
+  }
+  a { color: inherit; text-decoration: none; }
+  img {
+    width: 100%;
+    border-radius: 8px;
+    margin: 12px 0;
+    display: block;
+  }
+  b, strong { font-weight: 700; }
+  em, i { font-style: italic; }
+
+  /* ============================================================
+     LAYOUT WRAPPER
+     ============================================================ */
+  .article-wrap {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 28px 20px 60px;
+  }
+
+  /* ============================================================
+     SECTION 0 — HEADER BAR
+     ============================================================ */
+  .header-bar {
+    background: #00465A;
+    padding: 14px 20px;
+    text-align: center;
+  }
+  .header-bar .brand-text {
+    font-family: 'Bitter', serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+  }
+  .header-bar .brand-divider {
+    color: rgba(255,255,255,0.4);
+    margin: 0 8px;
+  }
+  .header-bar .brand-tagline {
+    color: rgba(255,255,255,0.7);
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: none;
+    letter-spacing: 0;
+  }
+
+  /* ============================================================
+     TYPOGRAPHY
+     ============================================================ */
+  h1 {
+    font-family: 'Bitter', serif;
+    font-size: 28px;
+    font-weight: 800;
+    color: #111111;
+    line-height: 1.3;
+    margin: 20px 0 14px;
+  }
+  h2 {
+    font-family: 'Bitter', serif;
+    font-size: 24px;
+    font-weight: 800;
+    color: #00465A;
+    line-height: 1.3;
+    margin: 28px 0 16px;
+  }
+  h3 {
+    font-family: 'Bitter', serif;
+    font-size: 19px;
+    font-weight: 800;
+    color: #00465A;
+    line-height: 1.35;
+    margin: 20px 0 12px;
+  }
+  p {
+    margin: 0 0 14px;
+  }
+
+  /* ============================================================
+     SECTION DIVIDERS
+     ============================================================ */
+  .section-divider {
+    border: none;
+    border-top: 1px solid #e5e5e5;
+    margin: 32px 0;
+  }
+
+  /* ============================================================
+     BYLINE ROW
+     ============================================================ */
+  .byline-row {
+    border-bottom: 2px solid #00465A;
+    padding-bottom: 18px;
+    margin-bottom: 18px;
+  }
+  .byline-author {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: #00465A;
+  }
+  .byline-date {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: #888888;
+    margin-left: 12px;
+  }
+
+  /* ============================================================
+     SUBLINE / DECK
+     ============================================================ */
+  .subline {
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #444444;
+    line-height: 1.7;
+    margin: 0 0 20px;
+  }
+  .subline mark {
+    background: #FDCC5E;
+    color: #111111;
+    font-weight: 700;
+    padding: 0 2px;
+  }
+
+  /* ============================================================
+     WARNING BOX
+     ============================================================ */
+  .warning-box {
+    background: #FEF9E7;
+    border: 2px dashed #D0021B;
+    border-radius: 8px;
+    padding: 18px 20px;
+    margin: 20px 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #333333;
+    line-height: 1.55;
+  }
+  .warning-box .warning-label {
+    font-size: 16px;
+    margin-right: 4px;
+  }
+
+  /* ============================================================
+     REVIEW CARDS
+     ============================================================ */
+  .review-card {
+    border: 1px solid #e5e5e5;
+    border-radius: 12px;
+    background: #fafafa;
+    padding: 16px 18px;
+    margin: 16px 0;
+  }
+  .review-name {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    color: #111111;
+    margin-bottom: 3px;
+  }
+  .review-stars {
+    color: #FF8C00;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-bottom: 4px;
+  }
+  .review-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #00465A;
+    margin-bottom: 4px;
+  }
+  .review-verified {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #479C1A;
+    margin-bottom: 8px;
+  }
+  .review-body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #444444;
+    line-height: 1.7;
+    margin-bottom: 8px;
+  }
+  .review-helpful {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #888888;
+  }
+
+  /* ============================================================
+     PRICING BOX
+     ============================================================ */
+  .pricing-box {
+    background: #f8f9fa;
+    border: 2px solid #00465A;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    margin: 20px 0;
+  }
+  .pricing-label {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 800;
+    color: #479C1A;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  .pricing-headline {
+    font-family: 'Bitter', serif;
+    font-size: 28px;
+    font-weight: 800;
+    color: #111111;
+    line-height: 1.15;
+    margin-bottom: 10px;
+  }
+  .pricing-strikethrough {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #999999;
+    text-decoration: line-through;
+    margin-bottom: 6px;
+  }
+  .pricing-hero {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #00465A;
+    margin-bottom: 4px;
+  }
+
+  /* ============================================================
+     GUARANTEE BOX
+     ============================================================ */
+  .guarantee-box {
+    border: 3px solid #479C1A;
+    border-radius: 14px;
+    background: #f0fae8;
+    padding: 22px 24px;
+    margin: 20px 0;
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .guarantee-icon {
+    font-size: 40px;
+    flex-shrink: 0;
+    line-height: 1;
+  }
+  .guarantee-content h3 {
+    font-family: 'Bitter', serif;
+    font-size: 19px;
+    font-weight: 800;
+    color: #111111;
+    margin: 0 0 8px;
+  }
+  .guarantee-content p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #555555;
+    line-height: 1.65;
+    margin: 0;
+  }
+
+  /* ============================================================
+     CTA BUTTONS
+     ============================================================ */
+  .cta-wrap {
+    margin: 24px auto;
+    text-align: center;
+    max-width: 560px;
+  }
+  .cta-button {
+    display: block;
+    background: #479C1A;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    font-weight: 800;
+    text-transform: uppercase;
+    border-radius: 8px;
+    padding: 20px 24px;
+    max-width: 540px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 6px 22px rgba(71, 156, 26, 0.35);
+    cursor: pointer;
+    text-decoration: none;
+    transition: background 0.2s ease;
+    line-height: 1.3;
+  }
+  .cta-button:hover { background: #019E3F; }
+  .cta-subtext {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: #777777;
+    text-align: center;
+    display: block;
+    margin-top: 8px;
+  }
+
+  /* ============================================================
+     STICKY CTA BAR
+     ============================================================ */
+  .sticky-cta {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    border-top: 3px solid #479C1A;
+    padding: 10px 16px;
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.15);
+    z-index: 9999;
+    display: none;
+    text-align: center;
+  }
+  .sticky-cta .cta-button {
+    font-size: 16px;
+    padding: 14px 24px;
+    max-width: 440px;
+  }
+
+  /* ============================================================
+     BLOCKQUOTE
+     ============================================================ */
+  blockquote {
+    background: #f4f8fa;
+    border-left: 4px solid #00465A;
+    padding: 14px 18px;
+    margin: 18px 0;
+    font-style: italic;
+    color: #444;
+  }
+
+  /* ============================================================
+     AUTHOR DISCLAIMER
+     ============================================================ */
+  .author-disclaimer {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    font-style: italic;
+    color: #888888;
+    text-align: center;
+    margin-top: 32px;
+    line-height: 1.6;
+  }
+
+  /* ============================================================
+     FOOTER
+     ============================================================ */
+  .site-footer {
+    background: #f7f7f7;
+    padding: 28px 20px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  .footer-links {
+    margin-bottom: 14px;
+  }
+  .footer-links a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #888888;
+    margin: 0 8px;
+    text-decoration: underline;
+  }
+  .footer-disclaimer {
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    color: #999999;
+    line-height: 1.65;
+    max-width: 760px;
+    margin: 0 auto;
+  }
+
+  /* ============================================================
+     NUMBERED STEPS
+     ============================================================ */
+  .steps-list {
+    list-style: none;
+    padding: 0;
+    margin: 16px 0;
+  }
+  .steps-list li {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 12px;
+    align-items: flex-start;
+  }
+  .steps-list .step-num {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    color: #479C1A;
+    flex-shrink: 0;
+    min-width: 22px;
+  }
+
+  /* ============================================================
+     MOBILE — 600px breakpoint
+     ============================================================ */
+  @media (max-width: 600px) {
+    h1 { font-size: 23px; }
+    h2 { font-size: 21px; }
+    .cta-button { font-size: 17px; padding: 18px 20px; }
+    .guarantee-box { flex-direction: column; }
+    .article-wrap { padding: 20px 16px 80px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ============================================================
+     SECTION 0 — HEADER BAR
+     ============================================================ -->
+<div class="header-bar">
+  <span class="brand-text">NativePath</span>
+  <span class="brand-divider">|</span>
+  <span class="brand-tagline">Grass-Fed Collagen Peptides</span>
+</div>
+
+<!-- ============================================================
+     ARTICLE WRAP — all content sections
+     ============================================================ -->
+<div class="article-wrap">
+
+  <!-- SECTION 1 — H1 + SUBLINE + BYLINE -->
+  <h1>The "Collagen in Your Coffee" Ritual Everyone Is Talking About Is Real. But They're All Buying the Wrong Type. I Should Know. I'm the One Who Figured Out Why.</h1>
+
+  <img src="images/slot-01-hero.jpg" alt="Two women in their 60s and 70s in a morning kitchen, one stirring collagen into coffee with the NativePath jar visible on the counter">
+
+  <p class="subline">You've seen the posts. Women in their 50s, 60s, and 70s, quietly adding one scoop to their morning coffee and suddenly — joints that move again, hair that shows up in the before photos, skin the hairdresser keeps commenting on. Here's the part nobody explains: <mark>collagen only does that if you give your body the two types it actually uses.</mark> Most products on the market bury those two types under three others your body barely needs. This is the formula that uses the right ones. Nothing else.</p>
+
+  <div class="byline-row">
+    <span class="byline-author">By Claire Harmon, Nutritional Researcher</span>
+    <span class="byline-date">Updated August 2026</span>
+  </div>
+
+  <hr class="section-divider">
+
+  <!-- SECTION 2 — EMPATHY / PROBLEM IDENTIFICATION -->
+  <h2>If You Take Your Collagen Every Single Day and Still Feel Like Your Body Is Quietly Falling Apart, This Is the Article You've Been Waiting For</h2>
+
+  <img src="images/slot-02-sisters.jpg" alt="Two sisters in their 50s-60s, one visibly struggling on stairs while the other watches with concern">
+
+  <p>Let me guess.</p>
+
+  <p><strong>You've tried everything.</strong> The multi-collagen blends. The five-type pills. The celebrity brand that turned its tub to cardboard.</p>
+
+  <p>The jar that was supposed to have 25 scoops but didn't.</p>
+
+  <p>You eat more carefully than you did at forty. You walk more than your husband ever has. You read every label, count every gram, and track every review before you spend a dollar on anything.</p>
+
+  <p><strong>And your joints still wake up stiff every single morning.</strong></p>
+
+  <p>Then your doctor says the four most infuriating words in the English language: <em>"Try to walk more."</em></p>
+
+  <p>I know exactly how much that stings to hear.</p>
+
+  <p>Because those are the same words I once said to my sister Diane. And I have never been more wrong about anything in my life.</p>
+
+  <p>So let me say the thing no one has said to you yet.</p>
+
+  <p><strong>It was never your effort. It was never your fault.</strong></p>
+
+  <p>Your body was running on the wrong signal. And until you understand why, the right behavior and the wrong formula will never get you there.</p>
+
+  <p>Lately, your whole feed has been women whispering about the same thing: collagen in the morning coffee. Something about the bones, the hair, the skin. You've heard it enough times it's starting to feel real.</p>
+
+  <p><strong>Here's what everyone keeps leaving out.</strong></p>
+
+  <p>Collagen only works if your body gets the two types it actually needs, in the form it can absorb, at the dose the research actually used.</p>
+
+  <p>Get one of those wrong, and you feel nothing.</p>
+
+  <p>Get all three right, and the results come fast enough you'll have to slow yourself down.</p>
+
+  <p>I'm going to show you exactly why that is. Because I spent almost two years figuring out the answer — and my sister Diane is the reason I kept going.</p>
+
+  <p><strong>Read this before you spend another dollar on collagen.</strong></p>
+
+  <hr class="section-divider">
+
+  <!-- SECTION 3 — NARRATOR CREDIBILITY & CONFESSION -->
+  <h2>I Was the "Healthy Sister." I Told Diane to Just Eat More Protein. I Was Completely Wrong.</h2>
+
+  <img src="images/slot-03-measuring.jpg" alt="Claire at a kitchen table with research papers, reading glasses on, laptop open">
+
+  <p>My name is Claire Harmon.</p>
+
+  <p>I'm not a celebrity. I'm not an MD on a stage selling my own supplement line. <strong>I'm a nutritional researcher and a formulator who spent the better part of her career reading studies most people never see.</strong></p>
+
+  <p>And for most of my life, I was the lucky one.</p>
+
+  <p>The sister whose joints never ached. Whose hair never thinned. Who looked the same in every photo. I genuinely thought that was because of something I was doing right. Some discipline other people just hadn't found yet.</p>
+
+  <p>So when my sister Diane hit fifty-seven and menopause took her apart from the inside — joints that screamed in the morning, hair that came out in the brush by the handful, a DEXA scan that came back at osteopenia — I told her the same thing her doctor told her.</p>
+
+  <p><em>"Eat more protein. Walk more. Take better care of yourself."</em></p>
+
+  <p>I need to confess that, because it's the whole reason I'm writing this.</p>
+
+  <p><strong>I judged my own sister. I quietly believed that if she just tried harder, she'd get there.</strong></p>
+
+  <p>I was wrong. Not a little wrong. <strong>Completely, shamefully wrong.</strong></p>
+
+  <p>And the day I finally stopped believing that was the day I started looking for the real answer.</p>
+
+  <p>What I found in those research files is the reason those collagen posts you keep seeing are real — and why most of the products behind those posts are getting it backwards.</p>
+
+  <hr class="section-divider">
+
+  <!-- SECTION 4 — PROOF SETUP: EMPIRICAL MEASUREMENT -->
+  <h2>So I Tracked Everything. What I Found Broke My Heart.</h2>
+
+  <img src="images/slot-04-laptop.jpg" alt="Claire at a laptop late at night, data printouts scattered around, coffee going cold — cinematic scene">
+
+  <p>Diane is my younger sister. <strong>She raised two kids, worked a full schedule for thirty years, cooked most of her own food, and never once let herself slide into the habits she watched other people develop.</strong></p>
+
+  <p>She was the one who brought salads to family dinners.</p>
+
+  <p>She was the one who took the stairs.</p>
+
+  <p>And there she was at fifty-seven — hands so stiff she couldn't open a jar without wincing, hair thinning faster than she could hide it, scared by a number on a scan that her doctor mostly shrugged at.</p>
+
+  <p>One afternoon she looked at me over the phone and said, <em>"Claire, I AM taking care of myself. I swear to God, I am."</em></p>
+
+  <p>So I decided to find out if she was right.</p>
+
+  <p><strong>For three weeks I tracked everything. Her meals, her protein, her activity. I tracked mine too. I wrote it all down.</strong></p>
+
+  <p>I will never forget the moment I looked at those numbers side by side.</p>
+
+  <div class="warning-box">
+    <span class="warning-label">⚠️</span> <strong>WARNING:</strong> Diane was eating more protein than I was. She was moving more than I was. She was doing everything more carefully than I had ever done in my life.<br><br>
+    <strong>And she was losing ground on every metric, while I stayed exactly the same doing half of what she did.</strong>
+  </div>
+
+  <p>She wasn't making excuses. She wasn't lazy. She wasn't undisciplined.</p>
+
+  <p><strong>Something inside her body was processing the same inputs in a completely different way than mine.</strong></p>
+
+  <p>No amount of "walking more" was ever going to fix a problem nobody had correctly named.</p>
+
+  <p>I went looking for the name.</p>
+
+  <hr class="section-divider">
+
+  <!-- SECTION 5 — THE CINEMATIC DISCOVERY MOMENT -->
+  <h2>At 1 a.m. I Found the Paper That Explained Everything Happening to Diane</h2>
+
+  <img src="images/slot-05-burn-store-diagram.jpg" alt="Pages of research with an NIH printout visible, late-night desk scene showing the collagen synthesis discovery moment">
+
+  <p>It took months of going through research most people never read.</p>
+
+  <p>Then one night — kids asleep, husband asleep, coffee I'd poured sitting cold on the desk beside me — I found it.</p>
+
+  <p><strong>A dermatology review on the exact mechanism that decides what menopause does to a woman's connective tissue. The switch inside the body that controls whether collagen gets made or not.</strong></p>
+
+  <p>The paper had a line I read five times.</p>
+
+  <p>It said women can lose up to 30 percent of their skin collagen in the first five years after menopause — and that loss is <em>more closely correlated with how long estrogen has been absent than with how old she actually is.</em></p>
+
+  <p>I sat there with my heart pounding.</p>
+
+  <p><strong>Estrogen was the signal. Estrogen is what told the body: rebuild.</strong> When estrogen left, the signal went SILENT. Not slow — SILENT. Like a factory where the orders stopped coming in.</p>
+
+  <p>That was Diane.</p>
+
+  <p>That was every woman who was doing everything right and still losing ground. Not because her effort failed. <strong>Because her rebuild signal had gone quiet.</strong></p>
+
+  <p>What I read next explained not just why she was stuck, but exactly what it would take to turn it back on.</p>
+
+  <p><strong>And it's simpler than any supplement ad will ever admit.</strong></p>
+
+  <hr class="section-divider">
+
+  <!-- SECTION 6 — MECHANISM EXPLANATION -->
+  <h2>It's Not That Your Body Stopped Caring. Your Body Stopped Getting the Signal to Rebuild.</h2>
+
+  <img src="images/slot-06-four-ways-diagram.jpg" alt="Clean diagram showing the collagen synthesis signal chain: estrogen → fibroblasts → REBUILD vs. SILENT states">
+
+  <p>Here is what is actually happening. Plain and simple.</p>
+
+  <p>Every night, while you sleep, your body runs a repair cycle. Collagen breaks down through daily living — movement, stress, time. The question is whether your body rebuilds it.</p>
+
+  <p>That decision isn't random. <strong>A signal makes it.</strong></p>
+
+  <p>When estrogen is present, it acts as the on-switch. Your fibroblasts — the cells that manufacture collagen in your skin, your bones, your connective tissue — receive that signal and do their job. <strong>Collagen gets made. Things get rebuilt overnight. You wake up better than you went to bed.</strong></p>
+
+  <p>That is what the "healthy" women have. They're not just eating more cleanly. <strong>Their bodies are running the REBUILD cycle while they sleep.</strong></p>
+
+  <p>But when estrogen drops at menopause, the signal goes SILENT.</p>
+
+  <p>The fibroblasts are still there. They're capable of working. <strong>But the order never comes in.</strong></p>
+
+  <p>So the daily breakdown keeps happening — joints wear, skin thins, hair follicles get weaker batches of structural protein — and nothing comes in to replace it. Your body isn't failing. <strong>Your body is waiting for a signal that stopped arriving.</strong></p>
+
+  <p>Joints that wake up stiff every morning. Hair that ends up in the brush and doesn't grow back. Skin that stopped bouncing back from anything. Bones getting thinner on a scan you fought your doctor to order.</p>
+
+  <p><strong>Same input. No rebuild. Every time.</strong></p>
+
+  <p>Now you can see why "eat more protein" never fixed anything.</p>
+
+  <p>You weren't deficient in effort. <strong>Your body was running SILENT when it should have been running REBUILD.</strong> And there is a second problem that makes it worse.</p>
+
+  <p>Here's what none of the collagen ads will tell you.</p>
+
+  <p>Your body doesn't need all types of collagen equally. Type I and Type III make up the vast majority of the collagen in your skin, your bones, and your connective tissue — the tissues that are actively losing ground at menopause. <strong>Every gram of collagen that goes to other types is a gram not going where your body is depleting fastest.</strong></p>
+
+  <p>Spread the dose thin enough, and the body never gets enough raw signal to flip from SILENT to REBUILD.</p>
+
+  <p><strong>And it can be flipped back. I've watched it happen.</strong></p>
+
+  <hr class="section-divider">
+
+  <!-- SECTION 7 — FALSE SOLUTION TEARDOWN -->
+  <h2>There Are Only Four Ways to Address This. Three of Them Will Leave You Right Where You Started.</h2>
+
+  <img src="images/slot-07-formulation-lab.jpg" alt="Four-panel diagram showing the 4 approaches to address the collagen cliff, with three crossed out and one with a green arrow">
+
+  <p>Once I understood what was actually happening, the question got simple.</p>
+
+  <p>How do you restart a rebuild signal that went SILENT?</p>
+
+  <p>There are only four approaches anyone has ever tried. <strong>Let me save you the years.</strong></p>
+
+  <p><strong>Way #1: Take the prescription bone-loss medication.</strong><br>
+  She goes on Fosamax or Boniva or Forteo. The medications slow the breakdown of existing bone — they are not building new collagen. They don't address the signal. They don't help joints, hair, or skin. And her mother took Forteo and still broke bones anyway. This is a management strategy, not a rebuild.</p>
+
+  <p><strong>Way #2: Trust that HRT will handle everything.</strong><br>
+  Hormone therapy restores estrogen, and for many women it genuinely helps — joints, mood, energy. But a significant number of women find it didn't move the needle on joints, hair, or skin the way they hoped. And for women who can't take it, or who are years past menopause, the estrogen window is different. Collagen sits alongside HRT. It is not a replacement. But for the woman whose joints didn't come back on hormones alone — <em>"HRT didn't work for my joint pain. Collagen did"</em> — this is the missing piece.</p>
+
+  <p><strong>Way #3: Take a multi-collagen capsule with five or ten types.</strong><br>
+  Maybe you already tried this. A year or two of pills with Types I, II, III, V, and X. Chicken cartilage, fish scales, eggshell. Judy L. describes it perfectly: <em>"In the couple of years I have been taking [a pill supplement that supposedly contains 5 types of collagen], I have not seen any improvement in my hair, skin, bones, nails, etc."</em> Of course she didn't. The types her body needed most — I and III — were diluted across types her skin and bones barely use. <strong>And capsules rarely deliver more than 3 grams per serving. The studies that showed joint and bone benefit used 5 to 10 grams a day.</strong> She was dosing at a third of the research threshold.</p>
+
+  <p><strong>Way #4: Give your body Types I and III directly, hydrolyzed to absorb, dosed correctly.</strong><br>
+  Maybe you've already tried "just collagen powder" on its own and felt nothing. Of course you might have — if the type was wrong, the form wasn't hydrolyzed properly, or the dose was under the threshold. <strong>One thing wrong and the whole thing collapses.</strong></p>
+
+  <p>But all three factors right, at the same time? That is the only approach that ever worked for Diane. And for every woman I've watched come back since.</p>
+
+  <p><strong>And it's the one thing the collagen trend never explains.</strong></p>
+
+  <hr class="section-divider">
+
+  <!-- SECTION 8 — TRUE MECHANISM REVEAL -->
+  <h2>Give It the Right Type. The Right Form. The Right Dose. In That Order.</h2>
+
+  <p>The formula has three requirements. Each one does one job.</p>
+
+  <p><strong>Miss one, and the signal never fully turns on. That's why collagen pills and multi-blends do nothing for most women.</strong></p>
+
+  <p><strong>Requirement One. The right TYPE. (Types I and III — nothing else.)</strong><br>
+  Your skin, your bones, your connective tissue, your hair follicles — the tissues losing ground right now — run on Type I and Type III collagen. Those are the structural proteins your fibroblasts and osteoblasts are waiting to receive. Studies on bone mineral density and skin collagen used Type I and III bovine collagen. The chicken cartilage (Type II), the fish scales (Type V), the eggshell (Type X) — different tissues, different roles. <strong>Every gram that goes there is a gram that didn't go to the REBUILD your skin and bones are waiting for.</strong></p>
+
+  <p><strong>Requirement Two. The right FORM. (Hydrolyzed peptides — not gelatin, not unprocessed powder.)</strong><br>
+  Collagen is a massive protein molecule. Your body cannot absorb it whole. When it's hydrolyzed correctly — broken into the specific small fragments called Pro-Hyp peptides — those fragments are absorbed into the bloodstream. Studies have detected them reaching skin, cartilage, and bone. <strong>That's the rebuttal to "it just breaks down in your stomach." It does break down. Those breakdown products ARE the signal.</strong> Poor hydrolysis produces larger fragments. The signal never arrives.</p>
+
+  <p><strong>Requirement Three. The right DOSE. (10 grams minimum, daily.)</strong><br>
+  The clinical trials that showed bone and joint benefit used 5 to 10 grams of collagen peptides per day. One scoop of a properly hydrolyzed powder delivers 10 grams. A capsule supplement typically delivers 1 to 3 grams. <strong>The woman who "felt nothing" from collagen pills was often simply dosing at a third of the research-backed threshold.</strong> That's not a collagen failure. That's a delivery failure.</p>
+
+  <p>Right type. Right form. Right dose. <strong>That is the entire answer.</strong></p>
+
+  <p>Not a capsule. Not a blend of five types. Not a trendy recipe that doesn't tell you how much to take.</p>
+
+  <p><strong>Three requirements, met together, every single morning.</strong></p>
+
+  <p>But knowing the three requirements was the easy part. Getting them to work in real life almost broke me.</p>
+
+  <hr class="section-divider">
+
+  <!-- SECTION 9 — FORMULATION STORY -->
+  <h2>Knowing the Requirements Wasn't Enough. It Took Me Almost Two Years to Get All Three Right at Once.</h2>
+
+  <img src="images/slot-08-before-after-sister.jpg" alt="Claire in a kitchen sourcing lab setup with protein scales, various containers, and testing notes spread across the counter">
+
+  <p>Maybe you're already thinking what I thought.</p>
+
+  <p><em>"If it's just Types I and III, hydrolyzed, 10 grams a day — I'll figure it out myself. Buy a bulk powder. Read the label. Done."</em></p>
+
+  <p>I tried that first. <strong>It was not done.</strong></p>
+
+  <p><strong>The type is a knife edge.</strong> Most powders labeled "bovine collagen" don't specify which types are in what proportion. The ones that do are often blending I and III with other types to cut cost. To get a clean I-and-III source at 10 grams per serving, you'd need to source from a grass-fed supplier, verify the fractionation by type, and trust the mill's labeling — which, if you've ever read a 1-star review from a woman who counted 22 scoops in a "25-serving" container, you know how far brand trust gets you.</p>
+
+  <p><strong>The form is the hardest part.</strong> "Hydrolyzed" is a spectrum, not a standard. The degree of hydrolysis — how small the peptide fragments get — varies by temperature, enzyme, and processing time. A powder that says hydrolyzed on the label may still produce fragments too large to reach the bloodstream as the Pro-Hyp signal. You cannot see this in the powder. You cannot taste it. You cannot test it at home.</p>
+
+  <p><strong>The dose is a capsule trap.</strong> Even after finding the right type in the right form, I would have needed to take 4 to 6 gelatin capsules every morning to hit 10 grams. And capsule brands almost never use pharmaceutical-grade hydrolysis because the capsule size limits how much peptide they can pack in. The pill approach is structurally incapable of delivering what the research used.</p>
+
+  <p>Even with all three right, <strong>they have to arrive at your body at the same time, every day, without gap.</strong></p>
+
+  <p>So I turned my kitchen into a sourcing project.</p>
+
+  <p><strong>For almost two years I sourced, tested, and ran every format I could find on myself.</strong> I tested grass-fed South American bovine from three different mills. I tested different hydrolysis grades. I tested every serving size from 5 to 20 grams. I kept a log.</p>
+
+  <p>Most mornings I felt exactly what she felt. Nothing.</p>
+
+  <p><strong>Then one morning, about four months in, I felt it.</strong> My hands moved without me noticing them move. No inventory. No accounting. Just… motion.</p>
+
+  <p>I made the same batch the next morning to make sure. And the next.</p>
+
+  <p><strong>It worked every single time.</strong></p>
+
+  <p>That was the formulation. Not "just collagen powder."</p>
+
+  <p><strong>An exact source. An exact grade. An exact dose. Every morning.</strong></p>
+
+  <p><em>That's</em> what I finally handed Diane.</p>
+
+  <hr class="section-divider">
+
+  <!-- SECTION 10 — DIANE'S RESULT -->
+  <h2>I Watched Diane Come Back to Her Own Life.</h2>
+
+  <p>I gave Diane that exact formulation. One scoop in her morning coffee, stir until dissolved. No pills. No blends. Just this.</p>
+
+  <p>She called me three weeks later. Not frustrated this time.</p>
+
+  <p><strong>"Claire… it's not quiet anymore."</strong></p>
+
+  <p>That constant overnight silence. The joints that used to ache all the way through until noon. <strong>It had just stopped.</strong></p>
+
+  <p>Then her DEXA numbers started moving. Not slowly.</p>
+
+  <p><strong>Diane wasn't doing anything different.</strong> Her body had simply started rebuilding what it was depleting, instead of running SILENT on both ends.</p>
+
+  <p>She started going to the hairdresser again. Her stylist asked what she had changed. Diane hadn't changed anything else.</p>
+
+  <p>I told her to check in at six months. At six months, she called and said her follow-up scan had moved in the right direction for the first time since menopause. Her doctor told her to keep doing whatever she was doing.</p>
+
+  <div class="warning-box">
+    <span class="warning-label">⚠️</span> <strong>I need you to hear something clearly.</strong> Some women feel the change faster than they expect. If that's you — and it may be — don't double your dose thinking more is faster. Ten grams a day is the dose. Respect it.
+  </div>
+
+  <p><strong>Six months after she started, Diane was back on the floor playing with her grandkids.</strong></p>
+
+  <p>But the scan improvement isn't the part that makes me cry. <strong>It's this.</strong></p>
+
+  <!-- BEFORE/AFTER IMAGE — MID-COPY, AFTER "It's this." -->
+  <img src="images/slot-09-hero-product.jpg" alt="Diane before and after — left: withdrawn, standing at the back of a family photo; right: front row, on the floor laughing with grandchildren">
+
+  <p>For the year before she started, Diane stopped letting anyone photograph her. She stood at the back of every family group shot or found something to do in the kitchen. She didn't say why. She didn't have to.</p>
+
+  <p><strong>Now look at her.</strong></p>
+
+  <p>She's in every photo. Front row.</p>
+
+  <p>Word got around the way it always does among women who talk to each other.</p>
+
+  <p>I ended up sourcing and formulating for dozens of women in her circle. Then for hundreds more who reached out after those women shared what they were doing.</p>
+
+  <p>Then, a few years later, I saw the same formula — watered down with added types, under-dosed per serving, packaged with a celebrity name — on the shelf at three times the price Diane was paying.</p>
+
+  <p><strong>So I decided to do something about it.</strong></p>
+
+  <hr class="section-divider">
+
+  <!-- SECTION 11 — PRODUCT INTRODUCTION -->
+  <h2>So I Made the Real Thing. The Original Formula — Pure Types I and III, Hydrolyzed, Dosed Correctly. I Call It NativePath Grass-Fed Collagen.</h2>
+
+  <img src="images/slot-10-testimonial-linda.jpg" alt="NativePath Grass-Fed Collagen jar hero product shot on a clean white background with grass and field detail">
+
+  <p>I couldn't keep hand-sourcing and custom-formulating for every woman who reached out. So I did it properly.</p>
+
+  <p>I took the exact specification I'd spent nearly two years verifying to a GMP-certified facility in the United States.</p>
+
+  <p><strong>Types I and III only — to rebuild what menopause depletes fastest. Hydrolyzed to the peptide grade that absorbs. Ten grams per scoop — the research-backed dose, not a capsule-sized fraction of it.</strong></p>
+
+  <p>Sourced exclusively from grass-fed, pasture-raised cattle. No blends. No types added to pump up the label count. No flavors, no fillers, no sweeteners, no seed oils, no artificial anything.</p>
+
+  <p>In the original powder form, the way the formula was always meant to be used.</p>
+
+  <p>One scoop in your coffee, your tea, your water. Stir once. Give it three seconds. Done.</p>
+
+  <p>I call it <strong>NativePath Grass-Fed Collagen.</strong></p>
+
+  <p>Let me be clear about what it is NOT.</p>
+
+  <p><strong>It is not a multi-collagen blend.</strong> It is not a capsule with 2 grams per serving. It is not a celebrity-branded label on the same generic powder you can get anywhere.</p>
+
+  <p>It is not one of the single-type tricks or multi-type blends that did nothing for Diane or for the women who reached out after her.</p>
+
+  <p><strong>It's the complete formula — the real one — that covers all three requirements your body needs, in order.</strong></p>
+
+  <p>And I priced it for real women who are serious about rebuilding. Not for a celebrity's markup on a formula they had no part in developing.</p>
+
+  <hr class="section-divider">
+
+  <!-- SECTION 12 — SOCIAL PROOF (Three Review Cards) -->
+  <h2>Diane Was Just the Beginning.</h2>
+
+  <p>Here are three more women who took the same formulation.</p>
+
+  <!-- Review 1 -->
+  <img src="images/slot-11-testimonial-marlene.jpg" alt="Martha P. before and after results using NativePath Grass-Fed Collagen">
+  <div class="review-card">
+    <div class="review-name">Martha P.</div>
+    <div class="review-stars">★★★★★</div>
+    <div class="review-title">"No one believes I'm almost 80."</div>
+    <div class="review-verified">✓ Verified Customer</div>
+    <p class="review-body">"I have been using the Collagen for almost a year and the results are amazing. My skin looks great, my hair is thicker and my nails are actually growing. <strong>I no longer have pain in my hips.</strong> I use two scoops each morning in my coffee. No one believes that I will be 80 years old in three months."</p>
+    <div class="review-helpful">248 people found this helpful</div>
+  </div>
+
+  <!-- Review 2 -->
+  <img src="images/slot-12-testimonial-diane.jpg" alt="Carolyn R. before and after results using NativePath Grass-Fed Collagen">
+  <div class="review-card">
+    <div class="review-name">Carolyn R., age 76</div>
+    <div class="review-stars">★★★★★</div>
+    <div class="review-title">"I actually have nails now that I must file."</div>
+    <div class="review-verified">✓ Verified Customer</div>
+    <p class="review-body">"I love this product. I have been using it for several months and have seen a dramatic change in my hair and nail growth. I have never been able to have any length in my fingernails. <strong>I actually have nails now that I must file.</strong> I have worn my hair long all of my life but it has thinned over the years. I will be 76 in February and my hair is growing faster than at any time in my life. I definitely recommend trying this."</p>
+    <div class="review-helpful">204 people found this helpful</div>
+  </div>
+
+  <!-- Review 3 -->
+  <img src="images/slot-13-price-comparison.jpg" alt="Judy L. before and after results using NativePath Grass-Fed Collagen">
+  <div class="review-card">
+    <div class="review-name">Judy L.</div>
+    <div class="review-stars">★★★★★</div>
+    <div class="review-title">"Finally saw improvement after 2 years of nothing from pills."</div>
+    <div class="review-verified">✓ Verified Customer</div>
+    <p class="review-body">"I appreciate that using this form of collagen replaces the three separate pills I was taking daily. <strong>In the couple of years I was taking a pill supplement that supposedly contained 5 types of collagen, I saw no improvement in my hair, skin, bones, nails, or anything.</strong> Switching to a pure powder that I could actually measure made all the difference."</p>
+    <div class="review-helpful">178 people found this helpful</div>
+  </div>
+
+  <div class="warning-box">
+    <span class="warning-label">⚠️</span> <strong>A gentle note, because I mean it.</strong> Some women see results faster on this than they expect. If that's you — move at your own pace. Give the 10-gram dose time to work. <strong>This is not a race. It's a daily rebuild.</strong>
+  </div>
+
+  <hr class="section-divider">
+
+  <!-- SECTION 13 — OFFER / PRICING -->
+  <!-- Price comparison graphic placed ABOVE H2 -->
+  <img src="images/slot-14-guarantee-badge.jpg" alt="Price comparison graphic showing osteoporosis prescriptions at $100-200/month, celebrity collagen brands at $40-60/container, and NativePath at $27/jar side by side">
+
+  <h2 id="price-section">Osteoporosis Prescriptions Cost $100–$200 a Month. The Big Celebrity Collagen Brands Run $40–$60 a Container. Today You Get 3 Jars of the Original Formula for $27 Each.</h2>
+
+  <p>Let's talk about what this actually costs.</p>
+
+  <p>The prescription route — Fosamax, Boniva, Forteo — runs anywhere from $100 to $200 per month, depending on your insurance. Every month. <strong>Slowing breakdown, not rebuilding.</strong> That's not a rebuild. That's a holding pattern.</p>
+
+  <p>The celebrity-branded collagen — built on marketing, not on sourcing or hydrolysis grade — runs $40 to $60 or more per container. <strong>About $1.43 to $1.84 per serving for something with no specification on type ratios or peptide grade.</strong></p>
+
+  <p>Everything Diane spent in the two years before she found the real formula: jars with types she didn't need, capsules that couldn't deliver the dose, blends that just moved the money from her pocket to theirs. <strong>For most women, hundreds of dollars for nothing.</strong></p>
+
+  <p>NativePath Grass-Fed Collagen was going to be priced at $37.99 for a single jar. That's the real retail price.</p>
+
+  <p>But I didn't build this for a markup. I built it for Diane. And I built it for you.</p>
+
+  <p>So I'm releasing it right now at the <strong>3-jar Stock Up &amp; Save price of $27 per jar</strong> — that's $81 total, with <strong>FREE shipping and a FREE milk frother</strong> included.</p>
+
+  <p><strong>When you order 3 jars today, your frother comes at no extra charge.</strong> The frother alone retails for $25. It ensures your collagen dissolves completely into hot coffee every morning without a single clump.</p>
+
+  <!-- PRICING BOX -->
+  <div class="pricing-box">
+    <div class="pricing-label">Today's Stock Up &amp; Save Offer</div>
+    <div class="pricing-headline">Buy 3 Jars — Get FREE Frother + FREE Shipping</div>
+    <div class="pricing-strikethrough">$113.97 (regular price for 3 jars)</div>
+    <div class="pricing-hero">Just $81 today ($27/jar)</div>
+  </div>
+
+  <p>Because this is the launch price and I'm producing in honest, verified batches, I can't promise this offer holds. When the promotional window closes, the price goes back to $37.99 per jar. <strong>That is when this offer is gone.</strong></p>
+
+  <!-- CTA 1 -->
+  <div class="cta-wrap">
+    <a href="#CHECKOUT_URL" class="cta-button">YES — SEND MY 3 JARS ($27 EACH, FROTHER FREE) →</a>
+    <span class="cta-subtext">365-Day No-Questions Money-Back Guarantee · Free Shipping · No Subscription</span>
+  </div>
+
+  <hr class="section-divider">
+
+  <!-- SECTION 14 — GUARANTEE / RISK REVERSAL -->
+  <h2>Use the Whole Jar. If You Don't Feel a Difference, I'll Give You Every Penny Back.</h2>
+
+  <img src="images/slot-15-scoop-in-use.jpg" alt="365-day guarantee badge in forest green with clean background">
+
+  <p>I know you have been burned before. I know exactly what it feels like to spend money on something that promised a rebuild and delivered nothing.</p>
+
+  <p>So I am taking all the risk off you.</p>
+
+  <p><strong>Try NativePath Grass-Fed Collagen for a full 365 days.</strong> Use every scoop.</p>
+
+  <p>If your joints don't feel more like themselves, if your hair doesn't look like it's doing something again, if you don't notice a difference in the skin on your hands, your nails, any of the things you've been watching — <strong>email my team and we'll refund every penny.</strong></p>
+
+  <p>Used the whole jar. No questions. No fight.</p>
+
+  <p>You keep the results, or you keep your money. <strong>The only thing you can't do is stay in the quiet.</strong></p>
+
+  <p>That's not a marketing line. <strong>That's a promise from the researcher who formulated it.</strong></p>
+
+  <!-- GUARANTEE BOX -->
+  <div class="guarantee-box">
+    <div class="guarantee-icon">🛡️</div>
+    <div class="guarantee-content">
+      <h3>365-Day No-Questions Guarantee</h3>
+      <p>Use the entire product. If you are not satisfied for any reason, contact us within 365 days of delivery and we will refund your purchase, no questions asked. You keep the free frother either way. No return-window games. No fine print. Your only risk is doing nothing.</p>
+    </div>
+  </div>
+
+  <!-- CTA 2 -->
+  <div class="cta-wrap">
+    <a href="#CHECKOUT_URL" class="cta-button">TRY NATIVEPATH COLLAGEN RISK-FREE FOR 365 DAYS →</a>
+  </div>
+
+  <hr class="section-divider">
+
+  <!-- SECTION 15 — ORDER INSTRUCTIONS -->
+  <h2>Here's How to Start Tomorrow Morning</h2>
+
+  <img src="images/slot-16-aspirational-lifestyle.jpg" alt="A scoop of NativePath collagen dissolving into a morning coffee cup with steam rising — the three-second ritual">
+
+  <p>It's simple.</p>
+
+  <ol class="steps-list">
+    <li><span class="step-num">1.</span><span>Tap the button below to place your order. (Most women start with 3 jars or 6. Partly to save on per-jar price, partly because once you feel the difference, you will not want to run out.)</span></li>
+    <li><span class="step-num">2.</span><span>Enter your shipping details on the secure checkout page.</span></li>
+    <li><span class="step-num">3.</span><span>NativePath ships straight to your door with free shipping.</span></li>
+  </ol>
+
+  <p>Tomorrow morning: <strong>one scoop in your coffee, stir once, done. Three seconds.</strong></p>
+
+  <p>Then get on with your day and let your body do what it hasn't been doing.</p>
+
+  <!-- CTA 3 -->
+  <div class="cta-wrap">
+    <a href="#CHECKOUT_URL" class="cta-button">SEND ME MY NATIVEPATH COLLAGEN →</a>
+  </div>
+
+  <hr class="section-divider">
+
+  <!-- SECTION 16 — EMOTIONAL CLOSE / FUTURE PACING -->
+  <h2>Six Months From Now, You'll Either Be Back in Your Own Body — or Still Watching the Quiet Get Louder</h2>
+
+  <p>Here's the truth no one likes to say. <strong>This doesn't fix itself.</strong></p>
+
+  <p>Another six months passes. Another morning inventory — hands, knees, the mirror. Another family photo you step to the back for.</p>
+
+  <p>The quiet doesn't stay the same. It creeps. <strong>And the distance between the life you want and the body you're working with creeps with it.</strong></p>
+
+  <p>The saddest words I hear from women in this situation are always the same: <strong>"I wish I had started sooner."</strong></p>
+
+  <p>That doesn't have to be you. <strong>Not today.</strong></p>
+
+  <p>Picture it. <strong>The quiet is gone.</strong> Joints that moved through the night and came out the other side ready. Hair your hairdresser comments on — not to be polite. Skin that stopped losing ground on every bump and scrape. A DEXA number that went in the right direction for the first time in years.</p>
+
+  <p><strong>Being in the front row of the photo. Not finding something to do in the kitchen.</strong></p>
+
+  <p>That's not vanity. <strong>That's you, coming back.</strong></p>
+
+  <p>You have given your body to decades of work, to your family, to everyone who needed something from you. It is okay to give it something it needs.</p>
+
+  <p><strong>This is the formula that gives it back to you. The real one, done right, sourced correctly, from the researcher who spent two years making sure it worked.</strong></p>
+
+  <!-- CTA 4 -->
+  <div class="cta-wrap">
+    <a href="#CHECKOUT_URL" class="cta-button">SEND MY 3 JARS OF NATIVEPATH COLLAGEN ($81 TOTAL) →</a>
+    <span class="cta-subtext">Free Frother + Free Shipping · 365-Day Guarantee · No Subscription</span>
+  </div>
+
+  <hr class="section-divider">
+
+  <!-- SECTION 17 — AUTHOR DISCLAIMER -->
+  <p class="author-disclaimer">
+    <em>Claire Harmon is an independent nutritional researcher and formulator. NativePath Grass-Fed Collagen is a dietary supplement and is not intended to diagnose, treat, cure, or prevent any disease. Consult your physician before beginning any supplement, especially if you are pregnant, nursing, or taking prescription medication. Individual results vary.</em>
+  </p>
+
+</div><!-- /.article-wrap -->
+
+<!-- ============================================================
+     SECTION 18 — FOOTER
+     ============================================================ -->
+<footer class="site-footer">
+  <div class="footer-links">
+    <a href="#">Privacy Policy</a>
+    <a href="#">Terms of Service</a>
+    <a href="#">Refund Policy</a>
+    <a href="#">Shipping Policy</a>
+    <a href="#">Contact Us</a>
+  </div>
+  <p class="footer-disclaimer">
+    This product is not intended to diagnose, treat, cure, or prevent any disease. These statements have not been evaluated by the Food and Drug Administration. Individual results may vary. Consult your physician before beginning any new supplement, especially if you are pregnant, nursing, or taking medication. Customer results referenced on this page have not been independently verified. Individual results vary.<br><br>
+    © 2026 NativePath. All Rights Reserved.<br>
+    1395 Brickell Ave. Suite 800, Miami, FL 33131 · 1-800-819-2993 · cs@nativepath.com
+  </p>
+</footer>
+
+<!-- ============================================================
+     SECTION 19 — STICKY CTA BAR (hidden by default)
+     ============================================================ -->
+<div class="sticky-cta">
+  <a href="#CHECKOUT_URL" class="cta-button">Get 3 NativePath Collagen Jars — $81 →</a>
+</div>
+
+<!-- ============================================================
+     STICKY CTA TRIGGER JAVASCRIPT
+     ============================================================ -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var priceSection = document.getElementById('price-section');
+  var stickyCta = document.querySelector('.sticky-cta');
+  var shown = false;
+
+  window.addEventListener('scroll', function() {
+    if (!shown && priceSection) {
+      var rect = priceSection.getBoundingClientRect();
+      if (rect.top <= window.innerHeight) {
+        stickyCta.style.display = 'block';
+        shown = true;
+      }
+    }
+  });
+});
+</script>
+
+</body>
+</html>
